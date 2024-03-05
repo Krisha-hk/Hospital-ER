@@ -1,7 +1,11 @@
 # Hospital-ER
 The HospitalER program is a tick-based simulation of patients arriving at the emergency room of a hospital. Patients arrive, wait for treatment, get treated, then are discharged.
 Advance the time by one "tick"
+
+
 Find all patients in the treatment room who have finished their current treatment and discharge them (remove them from the treatment room). For debugging, it is helpful to print a message for each patient when they are discharged: UI.println(time+ ": Discharge: " + p);
+
+
 Process one time tick for each patient currently being treated, or waiting in the waiting room.
 Move patients from the waiting room to the treatment room if there is space.
 Get any new patient that has arrived and adds them to the waiting room [complete].
